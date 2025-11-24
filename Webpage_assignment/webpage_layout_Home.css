@@ -1,0 +1,133 @@
+/* reset script */
+/* (*)-tarkoittaa et vaikuttaa kaikkiin elementteihin*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+html {
+  font-family: "Science Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "CTRS" 0;
+}
+
+
+body {
+    margin: 0;
+    background-color: #e8f0f7
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.header_content {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: ivory;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px 8px 8px 8px;
+
+}
+
+nav {
+    height: 80px;
+    Width: 100%;
+
+
+}
+
+.nav_list {
+    display: flex;
+    justify-content: right;
+    column-gap: 50px;
+    padding-right: 30px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+#logo {
+
+    width: 150px;
+    height: 80px;
+    display: block;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px 8px 8px 8px;
+
+
+
+}
+
+figcaption {
+    font-size: small;
+    margin: 0 1rem 0 1rem;
+}
+
+#teltta {
+    height: 40%;
+    width: 100%;
+     margin: 0 1rem 1rem 1rem;
+    border-radius: 8px 8px 8px 8px;
+
+}
+
+main {
+    padding: 1rem;
+}
+
+figure {
+    margin: 0 1rem 1rem 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    min-height: 80px;
+
+
+
+}
+
+li {
+    height: 80px;
+    column-gap: 30px;
+
+
+
+
+}
+
+li a {
+    height: 80px;
+    line-height: 80px;
+    text-decoration: none;
+    display: block;
+}
+
+.lorem {
+    margin: 0 1rem 1rem 1rem;
+    text-align: center;
+}
+
+footer {
+    margin: 0 1rem 1rem 1rem;
+}
