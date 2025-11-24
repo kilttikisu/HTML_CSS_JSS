@@ -113,6 +113,12 @@ li a {
     display: flex;
 }
 
+h3 {
+    visibility: hidden;
+    height: 1px;
+    width: 1px;
+}
+
 h2 {
     padding: 1rem 1rem 1rem 1rem;
 }
